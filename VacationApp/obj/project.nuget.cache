@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "F7byCFaKGMPppIQRtdnUatZD8J6o/cCMAzmhl4lLO8Ic+GAmNlkt40e3YjZteaOvcOoMqlfiWhyaWrxgPXjjNA==",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\VacationAppGeorgia\\VacationAppGeorgia\\VacationApp\\VacationApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.api.gax\\4.3.1\\google.api.gax.4.3.1.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.api.gax.rest\\4.3.1\\google.api.gax.rest.4.3.1.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.apis\\1.60.0\\google.apis.1.60.0.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.apis.auth\\1.60.0\\google.apis.auth.1.60.0.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.apis.core\\1.60.0\\google.apis.core.1.60.0.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.apis.translate.v2\\1.60.0.875\\google.apis.translate.v2.1.60.0.875.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\google.cloud.translation.v2\\3.2.0\\google.cloud.translation.v2.3.2.0.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.2\\microsoft.netcore.app.runtime.win-x64.7.0.2.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.2.nupkg.sha512",
+    "C:\\Users\\i.gordeev\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.2\\microsoft.aspnetcore.app.runtime.win-x64.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

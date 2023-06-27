@@ -1,0 +1,2 @@
+C:\Personal\VacationAppGeorgia\VacationAppGeorgia\VacationApp\bin\Release\net7.0\win-x64\publish\VacationApp.pdb
+C:\Personal\VacationAppGeorgia\VacationAppGeorgia\VacationApp\bin\Release\net7.0\win-x64\publish\VacationApp.exe
