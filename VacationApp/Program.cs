@@ -34,6 +34,9 @@ namespace TranslationApp
             Console.Write("Vacation end date (YYYY-MM-dd): ");
             string endDateString = Console.ReadLine();
 
+            Console.Write("Duration in work days: ");
+            string durationDays = Console.ReadLine();
+
             // Parse the entered dates
             DateTime startDate;
             DateTime endDate;
@@ -46,9 +49,6 @@ namespace TranslationApp
                 Console.ReadKey();
                 return;
             }
-
-            // Calculate the date difference
-            int days = (int)(endDate - startDate).TotalDays;
 
             // Translate the entered name and surname to Russian
             string fullNameRu = TranslateText(client, fullNameEn, "en", "ru");
@@ -64,7 +64,7 @@ namespace TranslationApp
                 { "<START___>", startDateString },
                 { "<END_____>", endDateString },
                 { "<FULL_NAME_GE______>", PadString(fullNameGe, 20) },
-                { "<D>", PadString(days.ToString(),3) },
+                { "<D>", PadString(durationDays,3) },
                 { "<DATE____>", DateTime.Now.ToString("yyyy-MM-dd") }
             };
 
