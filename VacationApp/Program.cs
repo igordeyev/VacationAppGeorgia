@@ -16,10 +16,10 @@ namespace TranslationApp
             // Prompt the user to enter their personal information
             Console.OutputEncoding = Encoding.UTF8;
 
-            Console.Write("Enter your first name: ");
+            Console.Write("Enter your first name (ENG): ");
             string name = Console.ReadLine();
 
-            Console.Write("Enter your last name: ");
+            Console.Write("Enter your last name (ENG): ");
             string surname = Console.ReadLine();
 
             string fullNameEn = $"{name}, {surname}";
