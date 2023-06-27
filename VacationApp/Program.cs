@@ -34,8 +34,7 @@ namespace TranslationApp
             Console.Write("Vacation end date (YYYY-MM-dd): ");
             string endDateString = Console.ReadLine();
 
-            Console.Write("Duration in work days: ");
-            string durationDays = Console.ReadLine();
+
 
             // Parse the entered dates
             DateTime startDate;
@@ -49,6 +48,17 @@ namespace TranslationApp
                 Console.ReadKey();
                 return;
             }
+
+            string durationDays = GetBusinessDays(startDate, endDate).ToString();
+
+            Console.Write($"Duration in work days ({durationDays}): ");
+            string inputDays= Console.ReadLine();
+
+            if (inputDays.Length != 0)
+            {
+                durationDays = inputDays;
+            }
+
 
             // Translate the entered name and surname to Russian
             string fullNameRu = TranslateText(client, fullNameEn, "en", "ru");
@@ -130,5 +140,18 @@ namespace TranslationApp
                 return text;
             }
         }
+
+        public static double GetBusinessDays(DateTime startD, DateTime endD)
+        {
+            double calcBusinessDays =
+                1 + ((endD - startD).TotalDays * 5 -
+                (startD.DayOfWeek - endD.DayOfWeek) * 2) / 7;
+
+            if (endD.DayOfWeek == DayOfWeek.Saturday) calcBusinessDays--;
+            if (startD.DayOfWeek == DayOfWeek.Sunday) calcBusinessDays--;
+
+            return calcBusinessDays;
+        }
+
     }
 }
